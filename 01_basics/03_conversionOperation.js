@@ -17,7 +17,7 @@ true   ->  1;  false -> 0
 let isLoggedIn = "harsh"
 
 let bolleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(bolleanIsLoggedIn)
+//console.log(bolleanIsLoggedIn)
 
 // 1 --> true
 // 0 --> false
@@ -26,6 +26,12 @@ console.log(bolleanIsLoggedIn)
 
 
 let someNumber = 35
-console.log(someNumber)
+console.log(typeof someNumber)
+let stringNumber = String(someNumber)
+console.log(stringNumber)
+console.log(typeof stringNumber)
+
+// convert the type of number in above process see 
+// number to string typeeee......
 
 
