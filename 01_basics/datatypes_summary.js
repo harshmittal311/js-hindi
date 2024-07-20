@@ -59,3 +59,22 @@ console.log(typeof myFunction)
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3
 
+
+
+//********************************************  Memory Types Working  *******************************************/
+
+//    Stack   (Primitive)
+//    Heap    (Non- Primitive)
+
+let myYoutubename = "Harsh Mittal"
+
+let anothername = myYoutubename
+
+anothername = "Chai Aur Code"
+
+console.log(myYoutubename)
+console.log(anothername)
+
+
+
+
