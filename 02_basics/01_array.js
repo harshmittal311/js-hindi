@@ -21,8 +21,8 @@ const myArr = [0, 1, 2, 3, 4, 5]
 //console.log(myArr.indexOf(2))
 
 const newArr = myArr.join()
-console.log(myArr)
-console.log(typeof newArr)
+//console.log(myArr)
+//console.log(typeof newArr)
 
 //console.log(myArr)
 
@@ -33,4 +33,9 @@ console.log(typeof newArr)
 console.log("A", myArr)
 
 const myn1 = myArr.slice(1,3)
-console.log("B", myArr)
+console.log(myn1)
+//console.log("B", myArr)
+
+const myn2 = myArr.splice(1,3) //// splice manipulate the original array but slice not change the original array
+console.log("c", myArr)
+console.log(myn2)
