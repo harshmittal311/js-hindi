@@ -20,6 +20,17 @@ const myArr = [0, 1, 2, 3, 4, 5]
 //console.log (myArr.includes(9))
 //console.log(myArr.indexOf(2))
 
-const newArr = myArr.join
+const newArr = myArr.join()
+console.log(myArr)
+console.log(typeof newArr)
 
 //console.log(myArr)
+
+
+// slice splice
+
+
+console.log("A", myArr)
+
+const myn1 = myArr.slice(1,3)
+console.log("B", myArr)
