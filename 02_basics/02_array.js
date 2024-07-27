@@ -13,6 +13,17 @@ const dc_hero = ["superman","flash","batman"]
 //const all_new_hero = [...marvel_hero, ...dc_hero]
 //console.log(all_new_hero)
 
-const another_array = [1,2,3,[4,5,6],7,[8,9,10,[11,12]]]
-const real_another_array = another_array.flat(Infinity)
-console.log(real_another_array)
+//const another_array = [1,2,3,[4,5,6],7,[8,9,10,[11,12]]]
+//const real_another_array = another_array.flat(Infinity)
+//console.log(real_another_array) 
+
+//const harsh = ["taru ", "xx",["yy","aaa",["hhhh","dfgh"]]]
+//const mittal = harsh.flat(Infinity)
+//console.log(mittal)
+
+console.log(Array.isArray("harsh"))
+console.log(Array.from("harsh"))
+
+
+
+
